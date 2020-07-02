@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link href="Style/stylesheet.css" rel="stylesheet">
+    <meta charset="utf-8" />
+    <title>Gamedev Canvas Workshop</title>
+
+    <style>
+          * { padding: 0; margin: 0; }
+      canvas { background: #eee; display: block; margin: 0 auto; }
+    </style>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="ClientResources/jquery/dist/jquery.min.js"></script>
+    <script defer src="ClientResources/victor.js" type="module"></script>
+    <script defer src="UserInterface/userInterface.js" type="module"></script>
+    <script defer src="Chat/chatClient.js" type="module"></script>
+    <script defer src="Game/GameClient.js" type="module"></script>
+    <script defer src="ClientResources/ClientSideObjects.js" type="module"></script>
+    <script defer src="ClientResources/GameObjectClass.js" type="module"></script>
+    <script defer src="ClientResources/TwoDimensionalObjects.js" type="module"></script>
+    <script defer src="ClientResources/VectorMath.js" type="module"></script>
+
+
+
+</head>
+<body>
+<div id ="chat">
+    <div id="innerchat">
+        <textarea id="input" cols="30" rows="4" wrap="hard"></textarea>
+    </div>
+</div>
+
+<canvas  height="360" id="myCanvas" width="480">
+    <div style="display:none;">
+    </div>
+</canvas>
+</body>
+</html>

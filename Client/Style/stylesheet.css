@@ -1,0 +1,49 @@
+#textarea{
+    margin: 1%;
+    resize: none;
+    height: 600px;
+    width: 200px;
+    border: 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#input{
+    margin:1%;
+    float: left;
+    resize: none;
+}
+#chatbutton{
+    margin: 1%;
+    float: left;
+    height: auto;
+    width:100px;
+}
+
+#chat{
+    margin: 1%;
+    float:left;
+}
+
+#myCanvas{
+    margin:1%;
+    float: left;
+}
+
+#shipSelectionFieldSet{
+    border:0;
+    padding-top: 10px;
+    clear: left;
+}
+
+#shipSelectDiv{
+    white-space: nowrap;
+}
+
+.obstacleSelection{
+    margin: 10px;
+    height: 100px;
+    width: 150px;
+
+}
+
